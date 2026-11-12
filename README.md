@@ -1,8 +1,12 @@
 # WDM-Ex.No-4--IMPLEMENTATION-OF-GSP-ALGORITHM-
-**Aim:** 
+## Name: sowmiya G
+## Reg no: 2305002023
+### Aim:
  To create a python program for implementing GSP Algorithm. 
-**Program:** 
+ 
+### Program:
 **gsp2.py** 
+```python
 import os 
 import codecs 
 import itertools 
@@ -147,10 +151,11 @@ class GSP:
    print t[1] 
  
   return 
-    
+```    
  
 **main2.py** 
-```from gspx import gsp2 
+```python
+from gspx import gsp2 
 threshold = 3 # minimum support 
 level = 3 # number of levels for GSP 
 g = gsp2.GSP(threshold, 'C:\\Users\\Welcome\\AppData\\Local\\Programs\\Python\\Python311\\Data_GSP\\') 
@@ -190,16 +195,8 @@ Dataset:
 2017-09-11 13:44:00;chronos#XVIe siècle
 
 ```
-Output: 
- 
- <img width="1091" height="579" alt="image" src="https://github.com/user-attachments/assets/d9a0be35-7a80-491c-b38f-19512b6b320a" />
+## Output: 
+<img width="422" height="682" alt="image" src="https://github.com/user-attachments/assets/8d9321bc-8770-406e-a568-3665cfe50980" />
 
- 
- 
- 
- 
- 
- 
- 
-Result: 
+## Result: 
 Thus, the python program for GSP Algorithm has been implemented successfully. 
